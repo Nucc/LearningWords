@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* LearningWordsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* LearningWordsAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		86623CAE0FDB287A00FAFB80 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86623CAD0FDB287A00FAFB80 /* RootViewController.xib */; };
+		86623CD50FDB327400FAFB80 /* DatabaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 86623CD40FDB327400FAFB80 /* DatabaseModel.m */; };
+		86623F4F0FDC0C7A00FAFB80 /* Topics.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86623F4E0FDC0C7A00FAFB80 /* Topics.xib */; };
+		86623F530FDC0CD600FAFB80 /* TopicController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86623F520FDC0CD600FAFB80 /* TopicController.m */; };
+		86623F5B0FDC0E9E00FAFB80 /* Topic.m in Sources */ = {isa = PBXBuildFile; fileRef = 86623F5A0FDC0E9E00FAFB80 /* Topic.m */; };
+		8B15D6AF0FD9396F006F6049 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B15D6AA0FD9396F006F6049 /* FMDatabase.m */; };
+		8B15D6B00FD9396F006F6049 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B15D6AC0FD9396F006F6049 /* FMDatabaseAdditions.m */; };
+		8B15D6B10FD9396F006F6049 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B15D6AE0FD9396F006F6049 /* FMResultSet.m */; };
+		8B59E9980FD965F600CFDAEA /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B59E9970FD965F600CFDAEA /* libsqlite3.0.dylib */; };
+		8B59E99F0FD9699C00CFDAEA /* words.db in Resources */ = {isa = PBXBuildFile; fileRef = 8B59E99E0FD9699C00CFDAEA /* words.db */; };
+		8B6D67940FEABA5A0020E6C6 /* NewWordController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6D67930FEABA5A0020E6C6 /* NewWordController.m */; };
+		8B6D69E00FEE69090020E6C6 /* NewWord.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B6D69DF0FEE69090020E6C6 /* NewWord.xib */; };
+		8B725AAA0FD98278007A3212 /* Word.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B725AA90FD98278007A3212 /* Word.m */; };
+		8B725BCD0FDAACE1007A3212 /* QuestionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B725BCC0FDAACE1007A3212 /* QuestionController.m */; };
+		8B725BCF0FDAAD2E007A3212 /* Question.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B725BCE0FDAAD2E007A3212 /* Question.xib */; };
+		8BF649BC1014EE9500DF4DDC /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BF649BB1014EE9500DF4DDC /* icon.png */; };
+		8BF9090B0FE3C2D300EC4D04 /* NewTopic.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BF9090A0FE3C2D300EC4D04 /* NewTopic.xib */; };
+		8BF909530FE3D30B00EC4D04 /* RandomQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF909520FE3D30B00EC4D04 /* RandomQuestion.m */; };
+		8BF90BDF0FE522FD00EC4D04 /* NewTopicController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF90BDE0FE522FD00EC4D04 /* NewTopicController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* LearningWordsAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LearningWordsAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* LearningWordsAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LearningWordsAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* LearningWords.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningWords.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* LearningWords_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LearningWords_Prefix.pch; sourceTree = "<group>"; };
+		86623CAD0FDB287A00FAFB80 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		86623CD30FDB327400FAFB80 /* DatabaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseModel.h; sourceTree = "<group>"; };
+		86623CD40FDB327400FAFB80 /* DatabaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseModel.m; sourceTree = "<group>"; };
+		86623F4E0FDC0C7A00FAFB80 /* Topics.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Topics.xib; sourceTree = "<group>"; };
+		86623F510FDC0CD600FAFB80 /* TopicController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopicController.h; sourceTree = "<group>"; };
+		86623F520FDC0CD600FAFB80 /* TopicController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopicController.m; sourceTree = "<group>"; };
+		86623F590FDC0E9E00FAFB80 /* Topic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Topic.h; sourceTree = "<group>"; };
+		86623F5A0FDC0E9E00FAFB80 /* Topic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Topic.m; sourceTree = "<group>"; };
+		8B15D6A90FD9396F006F6049 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		8B15D6AA0FD9396F006F6049 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		8B15D6AB0FD9396F006F6049 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		8B15D6AC0FD9396F006F6049 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		8B15D6AD0FD9396F006F6049 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		8B15D6AE0FD9396F006F6049 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		8B59E9970FD965F600CFDAEA /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		8B59E99E0FD9699C00CFDAEA /* words.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = words.db; sourceTree = "<group>"; };
+		8B6D67920FEABA5A0020E6C6 /* NewWordController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewWordController.h; sourceTree = "<group>"; };
+		8B6D67930FEABA5A0020E6C6 /* NewWordController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewWordController.m; sourceTree = "<group>"; };
+		8B6D69DF0FEE69090020E6C6 /* NewWord.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewWord.xib; sourceTree = "<group>"; };
+		8B725AA80FD98278007A3212 /* Word.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Word.h; sourceTree = "<group>"; };
+		8B725AA90FD98278007A3212 /* Word.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Word.m; sourceTree = "<group>"; };
+		8B725BCB0FDAACE1007A3212 /* QuestionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionController.h; sourceTree = "<group>"; };
+		8B725BCC0FDAACE1007A3212 /* QuestionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionController.m; sourceTree = "<group>"; };
+		8B725BCE0FDAAD2E007A3212 /* Question.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Question.xib; sourceTree = "<group>"; };
+		8BF649BB1014EE9500DF4DDC /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		8BF9090A0FE3C2D300EC4D04 /* NewTopic.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewTopic.xib; sourceTree = "<group>"; };
+		8BF909510FE3D30B00EC4D04 /* RandomQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RandomQuestion.h; sourceTree = "<group>"; };
+		8BF909520FE3D30B00EC4D04 /* RandomQuestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RandomQuestion.m; sourceTree = "<group>"; };
+		8BF90BDD0FE522FD00EC4D04 /* NewTopicController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTopicController.h; sourceTree = "<group>"; };
+		8BF90BDE0FE522FD00EC4D04 /* NewTopicController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTopicController.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				8B59E9980FD965F600CFDAEA /* libsqlite3.0.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8B15D6A90FD9396F006F6049 /* FMDatabase.h */,
+				8B15D6AA0FD9396F006F6049 /* FMDatabase.m */,
+				8B15D6AB0FD9396F006F6049 /* FMDatabaseAdditions.h */,
+				8B15D6AC0FD9396F006F6049 /* FMDatabaseAdditions.m */,
+				8B15D6AD0FD9396F006F6049 /* FMResultSet.h */,
+				8B15D6AE0FD9396F006F6049 /* FMResultSet.m */,
+				1D3623240D0F684500981E51 /* LearningWordsAppDelegate.h */,
+				1D3623250D0F684500981E51 /* LearningWordsAppDelegate.m */,
+				8B725AA80FD98278007A3212 /* Word.h */,
+				8B725AA90FD98278007A3212 /* Word.m */,
+				8B725BCB0FDAACE1007A3212 /* QuestionController.h */,
+				8B725BCC0FDAACE1007A3212 /* QuestionController.m */,
+				86623CD30FDB327400FAFB80 /* DatabaseModel.h */,
+				86623CD40FDB327400FAFB80 /* DatabaseModel.m */,
+				86623F510FDC0CD600FAFB80 /* TopicController.h */,
+				86623F520FDC0CD600FAFB80 /* TopicController.m */,
+				86623F590FDC0E9E00FAFB80 /* Topic.h */,
+				86623F5A0FDC0E9E00FAFB80 /* Topic.m */,
+				8BF909510FE3D30B00EC4D04 /* RandomQuestion.h */,
+				8BF909520FE3D30B00EC4D04 /* RandomQuestion.m */,
+				8BF90BDD0FE522FD00EC4D04 /* NewTopicController.h */,
+				8BF90BDE0FE522FD00EC4D04 /* NewTopicController.m */,
+				8B6D67920FEABA5A0020E6C6 /* NewWordController.h */,
+				8B6D67930FEABA5A0020E6C6 /* NewWordController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* LearningWords.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* LearningWords_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8BF649BB1014EE9500DF4DDC /* icon.png */,
+				8B59E99E0FD9699C00CFDAEA /* words.db */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				8B725BCE0FDAAD2E007A3212 /* Question.xib */,
+				86623CAD0FDB287A00FAFB80 /* RootViewController.xib */,
+				86623F4E0FDC0C7A00FAFB80 /* Topics.xib */,
+				8BF9090A0FE3C2D300EC4D04 /* NewTopic.xib */,
+				8B6D69DF0FEE69090020E6C6 /* NewWord.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B59E9970FD965F600CFDAEA /* libsqlite3.0.dylib */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* LearningWords */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "LearningWords" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LearningWords;
+			productName = LearningWords;
+			productReference = 1D6058910D05DD3D006BFB54 /* LearningWords.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "LearningWords" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* LearningWords */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				8B59E99F0FD9699C00CFDAEA /* words.db in Resources */,
+				8B725BCF0FDAAD2E007A3212 /* Question.xib in Resources */,
+				86623CAE0FDB287A00FAFB80 /* RootViewController.xib in Resources */,
+				86623F4F0FDC0C7A00FAFB80 /* Topics.xib in Resources */,
+				8BF9090B0FE3C2D300EC4D04 /* NewTopic.xib in Resources */,
+				8B6D69E00FEE69090020E6C6 /* NewWord.xib in Resources */,
+				8BF649BC1014EE9500DF4DDC /* icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* LearningWordsAppDelegate.m in Sources */,
+				8B15D6AF0FD9396F006F6049 /* FMDatabase.m in Sources */,
+				8B15D6B00FD9396F006F6049 /* FMDatabaseAdditions.m in Sources */,
+				8B15D6B10FD9396F006F6049 /* FMResultSet.m in Sources */,
+				8B725AAA0FD98278007A3212 /* Word.m in Sources */,
+				8B725BCD0FDAACE1007A3212 /* QuestionController.m in Sources */,
+				86623CD50FDB327400FAFB80 /* DatabaseModel.m in Sources */,
+				86623F530FDC0CD600FAFB80 /* TopicController.m in Sources */,
+				86623F5B0FDC0E9E00FAFB80 /* Topic.m in Sources */,
+				8BF909530FE3D30B00EC4D04 /* RandomQuestion.m in Sources */,
+				8BF90BDF0FE522FD00EC4D04 /* NewTopicController.m in Sources */,
+				8B6D67940FEABA5A0020E6C6 /* NewWordController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LearningWords_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = LearningWords;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LearningWords_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = LearningWords;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Papp Laszlo (YXV8RZ3DAE)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F30D2FB3-4137-412F-BAB1-2A0BBF5B3F0C";
+				SDKROOT = iphoneos2.2.1;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "LearningWords" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "LearningWords" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
